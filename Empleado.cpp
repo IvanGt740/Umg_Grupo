@@ -1,12 +1,12 @@
 #include "Persona.cpp"
 #include <iostream>
-
+//creando el archivo de empleado para git
 using namespace std;
 
 class Empleado : Persona{
 	
 	private : string codigo_empleado, puesto; 
-	
+	//constructores
 	public :
 		Empleado(){
 			
