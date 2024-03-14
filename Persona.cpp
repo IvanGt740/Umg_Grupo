@@ -21,9 +21,17 @@ class Persona{
         } 
 
     //Metodos CRUD = crear, leer, actualizar, borrar
-    void crear();
-    void leer();
-    void actualizar();
-    void borrar();
+    void crear(){
+		cout<<"Ha ingresado al metodo crear"<<endl;
+		};
+    void leer(){
+    	cout<<"Ha ingresado al metodo leer"<<endl;
+		};
+    void actualizar(){
+    	cout<<"Ha ingresado al metodo actualizar"<<endl;
+		};	
+    void borrar(){
+    	cout<<"Ha ingresado al metodo borrar"<<endl;
+    	};
 };
 
